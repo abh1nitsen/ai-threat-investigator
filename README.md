@@ -106,24 +106,16 @@ ai-threat-investigator/
 ├── requirements.txt
 └── README.md
 
----
-
-## How to Run
-
-### 1. Clone the repository
-
-git clone https://github.com/YOUR_USERNAME/ai-threat-investigator.git  
-cd ai-threat-investigator
 
 ---
 
-### 2. Install dependencies
+### Install dependencies
 
 pip install -r requirements.txt
 
 ---
 
-### 3. Set Groq API Key
+### Set Groq API Key
 
 Mac/Linux:
 export GROQ_API_KEY=your_api_key
@@ -133,7 +125,7 @@ set GROQ_API_KEY=your_api_key
 
 ---
 
-### 4. Prepare input data
+### Prepare input data
 
 Ensure the following file exists:
 
@@ -141,7 +133,7 @@ data/logs.csv
 
 ---
 
-### 5. Run the pipeline
+### Run the pipeline
 
 python main.py
 
